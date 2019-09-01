@@ -351,5 +351,8 @@ MigrationBackup/
 # Ionide (cross platform F# VS Code tools) working folder
 .ionide/
 
-!serialize.xml
-!deserialize.txt
+#not-ignore these files
+!.xml
+!.txt
+!Serialization/bin/Debug/serialize.xml
+!Serialization/bin/Debug/deserialize.txt
