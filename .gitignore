@@ -352,7 +352,7 @@ MigrationBackup/
 .ionide/
 
 #not-ignore these files
-!.xml
-!.txt
+!*.xml
+!*.txt
 !Serialization/bin/Debug/serialize.xml
 !Serialization/bin/Debug/deserialize.txt
