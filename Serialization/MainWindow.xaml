@@ -1,0 +1,17 @@
+﻿<Window x:Class="Serialization.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Serialization"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid Margin="0,0,-0.4,0">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="51*"/>
+            <ColumnDefinition Width="742*"/>
+        </Grid.ColumnDefinitions>
+        <Button x:Name="button1" Content="Serialize" HorizontalAlignment="Left" VerticalAlignment="Top" Width="794" Height="212" Grid.ColumnSpan="2" Margin="0,0,-0.4,0" Click="Button1_Click" FontSize="48" FontFamily="Segoe UI Black"/>
+        <Button x:Name="button2" Content="Deserialize" HorizontalAlignment="Left" VerticalAlignment="Top" Width="794" Height="212" Grid.ColumnSpan="2" Margin="0,208,-0.4,0" Click="Button2_Click" FontSize="48" FontFamily="Segoe UI Black" Background="#FF737373"/>
+    </Grid>
+</Window>
